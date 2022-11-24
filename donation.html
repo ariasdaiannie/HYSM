@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Nav-->
+    <header>
+      <img src="img/hysm-logo.png" alt="hysm-logo">
+      <a href="index.html" class="logo"> HYSM</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">Testimonials</a></li>
+            <li><a href="index.html">Counselors</a></li>
+            <li><a href="games.html">Games</a></li> 
+            <li><a href="index.html">Contact</a></li>  
+            <li><a href="donation.html">Donate</a></li>          
+        </ul>
+    </header>
+  <!-- <main> -->
+    <!--Home Section-->
+    <section class="intro" id="intro">
+        <div class="intro-img">
+            <img src="img/gift.svg" alt="gift-picture">
+        </div>
+        <div class="content intro-text">
+            <h1>Sign up to become a one time or monthly donor</h1>
+            <h2>By Teens, <br> For Teens.</h2>
+            <a href="#donation-info" class="btn">Donate Now</a>
+        </div>
+        
+    </section>
+    <!-- 2: phrase -->
+    <section class="phrase">
+      <div class="content">
+        <p class="content__phrase">Donate! As you can be the receiver of tomorrow.
+          <img src="img/smiley.png" alt="smiley">
+      </div>
+    </section>
+    <!-- 3: collaboration -->
+    <section class="collaboration">
+      <div class="content">
+        <p>COLLABORATION WITH OCEAN ACADEMY</p>
+        <p>DONATE!!!</p>
+        <img src="img/down-arrow-blue.png" alt="arrow-down-blue">
+      </div>
+    </section>
+
+    <!-- 4: donation info -->
+    <section class="donation-info" id="donation-info">
+      <div class="content">
+        <form action="">
+        <div class="subscription input-group">
+          <div class="input-box">
+            <input type="radio" id="one-time" class="radio" name="subscription__type" checked>
+            <label for="one-time">ONE TIME</label>
+          </div>
+          <div class="input-box">
+            <input type="radio" id="recurring" class="radio" name="subscription__type">
+            <label for="recurring">RECURRING</label>
+          </div>        
+        </div>
+
+        <h1>Choose amount</h1>
+        <div class="currency input-group">
+          <div class="input-box">
+            <input type="radio" id="five-hundred" class="radio" name="currency__value" checked>
+            <label for="five-hundred">$500</label>
+          </div>
+          <div class="input-box">
+            <input type="radio" id="three-hundred" class="radio" name="currency__value">
+            <label for="three-hundred">$300</label>
+          </div>  
+          <div class="input-box">
+            <input type="radio" id="one-hundred" class="radio" name="currency__value">
+            <label for="one-hundred">$100</label>
+          </div>  
+          <div class="input-box">
+            <input type="radio" id="fifty" class="radio" name="currency__value">
+            <label for="fifty">$50</label>
+          </div>        
+          
+          <select class="currency_type input-box">
+            <option value="bzd">BZD</option>
+            <option value="usd">USD</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <h1>Would you like to donate in honor of someone..</h1>
+        <div class="donation-type input-group">
+          <div class="input-box">
+            <input type="radio" id="none" name="donation-type__description" checked>
+            <label for="none">NONE</label>
+          </div>
+          <div class="input-box">
+            <input type="radio" id="honor" name="donation-type__description">
+            <label for="honor">IN HONOR</label>
+          </div class="input-box">     
+          <div class="input-box">
+            <input type="radio" id="memory" name="donation-type__description">
+            <label for="memory">IN MEMORY</label>
+          </div>   
+        </div>
+        </form>  
+      </div>
+    </section>
+
+    <!-- 5: donator info -->
+    <section class="donator-info">
+      <div class="content">
+        <aside class="vertical">
+          <table>
+            <tr>
+              <td class="vertical-text col-1">Tell your victory story!!</td>
+              <td class="vertical-text col-2"> good day to relax</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td class="vertical-text col-2">Every day is a</td>
+              <td class="vertical-text col-3">What love and care can do, medicines cannot</td>
+            </tr>
+          </table>          
+        </aside>
+
+       
+        <form action="">
+          <div class="donator-info__form-content">
+            <h3 class="your-info">Your information</h3>
+            <div class="donator-info__form-information">
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="fname">
+                    First name<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="fname" name="fname" value="" required>
+                </div>
+                <div class="input-box">
+                  <label for="lname">
+                    Last name<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="lname" name="lname" value="" required>
+                </div>
+              </div>
+              <div class="input-group">        
+                <div class="input-box-single">
+                  <input type="checkbox" id="hide-name" name="hide-name" value="">
+                  <label for="hide-name"> Hide my name from the public. </label>
+                </div>
+              </div>
+              <!-- <div></div> -->
+              <div class="donator-info__form-email input-box">
+                <label for="email">
+                  Email <span class="asterisk">*</span>
+                </label><br>
+                <input type="text" id="email" name="email" value="" required><br>
+                <span class="receipt-text">Your receipt will be emailed here</span>
+              </div>
+              <div class="input-group">
+                <div class="input-box-single">
+                  <input type="checkbox" id="add-me" name="add-me" value="">
+                  <label for="add-me"> Please add me to NAMI's email list.</label>
+                </div> 
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="tel">Phone Number</label><br>
+                  <input type="tel" id="tel" name="" value="" class="single">            
+                </div> 
+              </div>        
+            </div>
+
+            <h3 class="payment-details">Payment Details</h3>
+            <div class="donator-info__form-payment">
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="fname">
+                    Card Number<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="card-name" name="card-name" 
+                    placeholder="Credit Card" required>
+                </div>
+                <div class="input-box input-group">
+                  <div class="input-box">
+                    <label for="expiration-date">
+                      Expiration Date<span class="asterisk">*</span>
+                    </label><br>
+                    <input type="text" id="expiration-date" name="" 
+                      placeholder="MM/YY" required>
+                  </div>
+                  <div class="input-box">
+                    <label for="security-code"> 
+                      Security code<span class="asterisk">*</span>
+                    </label><br>
+                    <input type="text" id="security-code" name="" 
+                    placeholder="CVV" required>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box-single">
+                  <input type="checkbox" id="company-cc" name="" value="">
+                  <label for="company-cc"> Is this a company credit card? </label>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="billing-fname">
+                    Billing First name<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="billing-fname" name="" value="" required>
+                </div>
+                <div class="input-box">
+                  <label for="billing-lname">
+                    Billing Last name<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="billing-lname" name="" value="" required>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="country">
+                    Country<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="country" name="" class="single"
+                    placeholder="Belize" required>
+                </div>
+              </div>
+              <div class="input-group">
+                <div class="input-box">
+                  <label for="address">
+                    Address<span class="asterisk">*</span>
+                  </label><br>
+                  <input type="text" id="address" name="" value="" required>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <button class="donate-btn" type="submit" value="Submit">DONATE NOW</button>
+          </div>             
+        </form>        
+      </div>
+    </section>
+
+    <!-- 6: contact details -->
+    <section class="contact-detail">
+      <div class="content">
+        <div class="contact-detail__left">
+          <h2> If you have any questions, comments, or concerns, please contact us at hysm@oaseatide.com or by filling out the form on this site.
+          </h2>
+          <div>
+            <h1>CONTACT US:</h1>
+            <p class="contact-detail__icons">
+              <img src="img/facebook.png" alt="facebook">
+              <img src="img/gmail.png" alt="gmail">
+              <img src="img/instagram.png" alt="instagram">
+              <img src="img/telephone-handle-silhouette.png" alt="phone">
+            </p>
+          </div>
+        </div>
+
+        <div>
+        <form action="" method="post" class="contact-detail__right">
+          <div class="contact-detail__form-content">
+            <h1>Send a Message</h1>
+            <div class="input-group">
+              <div class="input-box" >              
+                <input type="text" id="contact-fname" name="contact-fname" 
+                  value="" placeholder="First Name" required>
+              </div>
+              <div class="input-box">              
+                <input type="text" id="contact-lname" name="contact-lname" 
+                  value="" placeholder="Last Name" required>
+              </div>
+            </div>
+            <div class="input-group">
+              <div class="input-box">              
+                <input type="text" id="contact-email" name="contact-email" 
+                  value="" placeholder="Email" required>
+              </div>
+              <div class="input-box">          
+                <input type="tel" id="tel" name="contact-tell" value=""  
+                  placeholder="Phone Number">            
+              </div> 
+            </div>
+            <div class="input-group">
+              <div class="input-box">              
+                <textarea name="contact-message" id="contact-message"  rows="5" 
+                  placeholder="Message" required></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="button-container">
+            <button class="send-btn" type="submit">SEND MESSAGE</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </section>
+  <!-- </main> -->
+
+  <!--JS page    -->
+  <script type="text/javascript" src="script.js"></script>
+ 
+</body>
+</html>
